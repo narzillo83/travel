@@ -1,0 +1,136 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.promo
+{   
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 71px;
+}
+.nav
+{   
+    width: 80%;
+    /* padding: 71px 0 0 0; */
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 321px;
+}
+.logo
+{
+    width: 179px;
+    cursor: pointer;
+}
+.btn
+{
+    width: 151px;
+    height: 57px;
+    border: 3px solid #3984f3;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: #3984f3;
+    cursor: pointer;
+    margin-left: 59px;
+}
+.nav ul
+{
+    flex: 1;
+    text-align: right;
+}
+.nav ul li 
+{
+    display: inline;
+    margin-left: 60px;
+    list-style: none;
+}
+.nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    color: #bab8b8;
+    transition: 0.3s all;
+}
+.nav ul li a:hover
+{
+    color: #4497f3;
+}
+.nav ul li a span
+{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    color: #4497f3;
+    transition: 0.3s all;
+}
+.row
+{   
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.title
+{
+    font-size: 75px;
+    line-height: 80px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    color: #091e40;
+}
+.subtitle
+{   
+    margin-top: 76px;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #81858e;
+}
+.btn-row
+{
+    width: 202px;
+    height: 57px;
+    background-color: #3984f3;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    margin-top: 96px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.promo .go  
+{
+    position: absolute;
+    width: 247px;
+    height: 464px;
+    left: 0;
+    top: 840px;
+    z-index: -1;
+
+}
+.promo .vector 
+{
+    position: absolute;
+    width: 1060px;
+    height: 998px;
+    right: 0;
+    top: 223px;
+    z-index: -1;
+}
